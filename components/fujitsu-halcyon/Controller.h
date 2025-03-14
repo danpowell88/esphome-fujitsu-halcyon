@@ -12,7 +12,7 @@
 namespace fujitsu_halcyon_controller {
 
 constexpr uart_config_t UARTConfig = {
-        .baud_rate = 500,
+        .baud_rate = 9600,
         .data_bits = UART_DATA_8_BITS,
         .parity    = UART_PARITY_EVEN,
         .stop_bits = UART_STOP_BITS_1,
