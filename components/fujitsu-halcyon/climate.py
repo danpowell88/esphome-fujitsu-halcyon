@@ -113,7 +113,7 @@ FINAL_VALIDATE_SCHEMA = uart.final_validate_device_schema(
     require_rx=True,
     baud_rate=9600,
     data_bits=8,
-    parity="EVEN",
+    parity="NONE",
     stop_bits=1
 )
 
