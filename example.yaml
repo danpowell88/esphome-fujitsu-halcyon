@@ -41,7 +41,7 @@ button:
 uart:
   tx_pin: GPIO13  # Device dependent
   rx_pin: GPIO14  # Device dependent
-  baud_rate: 500
+  baud_rate: 9600
   parity: EVEN
 
 climate:
